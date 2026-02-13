@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Maysita Yosephin Simanjuntak</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        /* LEFT SIDE */
+        .left {
+            background: linear-gradient(180deg, #1f2a44, #0f172a);
+            color: white;
+            padding: 30px;
+        }
+
+        .profile-img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #d4af37;
+            object-fit: cover;
+        }
+
+        .left h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #d4af37;
+            font-size: 18px;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 5px;
+        }
+
+        .left p {
+            font-size: 14px;
+            margin: 8px 0;
+        }
+
+        .left i {
+            margin-right: 8px;
+            color: #d4af37;
+        }
+
+        /* RIGHT SIDE */
+        .right {
+            padding: 40px;
+        }
+
+        .right h1 {
+            font-size: 32px;
+            color: #1f2a44;
+        }
+
+        .right h3 {
+            margin-top: 25px;
+            color: #d4af37;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .right p {
+            margin-top: 10px;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .job-title {
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .year {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skill-box {
+            background: #1f2a44;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        /* Responsive */
+        @media(max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            .left {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT SECTION -->
+    <div class="left">
+        <div class="profile-img">
+            <img src="foto.jpg" alt="Foto Maysita">
+        </div>
+
+        <h2>DATA DIRI</h2>
+        <p><i class="fa-solid fa-location-dot"></i> Medan, 14 Mei 2005</p>
+        <p><i class="fa-solid fa-venus"></i> Perempuan</p>
+        <p><i class="fa-solid fa-heart"></i> Belum menikah</p>
+        <p><i class="fa-solid fa-flag"></i> Indonesia</p>
+
+        <h2>KONTAK</h2>
+        <p><i class="fa-solid fa-phone"></i> 0813-7171-0357</p>
+        <p><i class="fa-solid fa-envelope"></i> maysitazhoen@gmail.com</p>
+        <p><i class="fa-solid fa-map"></i> Jl. Garuda Sakti Km 4,5</p>
+
+        <h2>SOSIAL MEDIA</h2>
+        <p><i class="fa-brands fa-instagram"></i> @may_zhoe</p>
+    </div>
+
+    <!-- RIGHT SECTION -->
+    <div class="right">
+        <h1>MAYSITA YOSEPHIN SIMANJUNTAK</h1>
+
+        <div class="section">
+            <h3>TENTANG SAYA</h3>
+            <p>
+                Saya Maysita Yosephin Simanjuntak, biasa dipanggil May atau Sitha. 
+                Saya pribadi yang disiplin, bertanggung jawab, dan mampu bekerja dengan sistem target. 
+                Terbiasa bekerja dalam tim maupun sistem shifting serta fokus dalam menyelesaikan tugas dengan maksimal.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>PENDIDIKAN</h3>
+            <p><strong>SDN 054947 B. Gereja, Sumut</strong> <span class="year">(2011–2017)</span></p>
+            <p><strong>SMPN 2 Gebang, Langkat</strong> <span class="year">(2017–2020)</span></p>
+            <p><strong>SMAN 1 Gebang, Langkat</strong> <span class="year">(2020–2023)</span></p>
+        </div>
+
+        <div class="section">
+            <h3>PENGALAMAN KERJA</h3>
+
+            <p class="job-title">SA Store – PT. Delami Brands Kharisma Busana</p>
+            <p class="year">2024 – 2025</p>
+            <ul>
+                <li>Memberikan pelayanan terbaik kepada customer.</li>
+                <li>Menjelaskan keunggulan produk dan meningkatkan penjualan.</li>
+                <li>Membantu proses pembayaran dan membangun loyalitas pelanggan.</li>
+                <li>Mengatur display toko dan stok barang.</li>
+            </ul>
+
+            <p class="job-title">Sales Promotion Girl – PT. Matahari Department Store</p>
+            <p class="year">2023 – 2024</p>
+            <ul>
+                <li>Memperkenalkan dan mempromosikan produk.</li>
+                <li>Melakukan pencatatan penjualan.</li>
+                <li>Membangun kepercayaan konsumen.</li>
+                <li>Membantu konsumen menemukan produk sesuai kebutuhan.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>KEMAMPUAN</h3>
+            <div class="skills">
+                <div class="skill-box">Komunikasi Baik</div>
+                <div class="skill-box">Kerja Tim</div>
+                <div class="skill-box">Customer Service</div>
+                <div class="skill-box">Sales Target</div>
+                <div class="skill-box">Public Speaking</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
